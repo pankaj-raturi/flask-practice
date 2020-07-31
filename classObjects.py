@@ -16,10 +16,14 @@ class Store:
         self.items.append(item)
 
     def stock_price(self):
-        total_price = 0
-        for item in self.items:
-            total_price += item['price']
-        return total_price
+        # total_price = 0
+        # for item in self.items:
+        #     total_price += item['price']
+        # return total_price
+
+        #Using List comprehension
+        return sum([item['price'] for item in self.items])
+        
 
 
 # Initialize the object
