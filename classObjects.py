@@ -29,4 +29,4 @@ store = Store("General Store")
 store.add_item('Copy', 10)
 store.add_item('Soft Drikns', 45)
 
-print(store.stock_price())
+print(f"Total Stock Value: {store.stock_price()}")
