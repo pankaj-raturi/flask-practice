@@ -21,6 +21,8 @@ class Store:
             total_price += item['price']
         return total_price
 
+
+# Initialize the object
 store = Store("General Store")
 
 # Add Items to the Inventory
